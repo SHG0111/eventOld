@@ -1,0 +1,97 @@
+body {
+    font-family: 'Cairo', sans-serif !important;
+}
+
+.right {
+    text-align: left !important;
+}
+.grid [class*=col-]{
+    float: right;
+}
+
+.left {
+    text-align: right !important;
+}
+
+.margin-left-5 {
+    margin-right: 50px !important;
+    margin-left: 0 !important;
+}
+
+.button.actionButton .material-icons {
+    left: 0 !important;
+}
+
+.side {
+    right: unset !important;
+    left: 0;
+}
+
+.sidebar.right.visible {
+    direction: rtl;
+    right: unset;
+    left: 0;
+    display: block;
+}
+
+.sidebar.right {
+    transform: translateX(-100%);
+    right: unset;
+    left: 0;
+}
+
+.appstoreImg.cropLeft {
+    margin-left: 5px !important;
+}
+
+.text-86 {
+    margin-left: 0;
+    margin-right: 77px;
+}
+
+.sidebar .social li:last-child {
+    margin-right: 20px;
+}
+
+/* ////////////////// */
+/* hero */
+/* ////////////////// */
+.register-event {
+    right: unset !important;
+    left: -28%;
+}
+
+.hero .card {
+    text-align: right !important;
+}
+
+.sliderArrows.left-arrow {
+    left: 45px;
+}
+
+.sliderArrows.right-arrow {
+    left: 30px;
+}
+
+/* ///////////////////////// */
+/* owl */
+/* ///////////////////////// */
+.owl-labels .owl-item {
+    margin: 0 !important
+}
+
+/* //////////////// */
+/* about section */
+/* //////////////// */
+.about .card::after {
+    right: unset !important;
+    left: -10rem;
+}
+
+/* //////////////////////////// */
+/* contact */
+/* //////////////////////////// */
+.contact-info{
+    padding: 0 !important;
+    padding-right: 2rem !important;
+}
